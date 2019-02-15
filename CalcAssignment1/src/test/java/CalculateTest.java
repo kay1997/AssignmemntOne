@@ -25,4 +25,11 @@ public class CalculateTest
         Calculate calc = new Calculate();
         Assert.assertEquals(25, calc.multiplication(5,5));
     }
+
+    @Test
+    public void division()
+    {
+        Calculate calc = new Calculate();
+        Assert.assertEquals(1, calc.division(5,5));
+    }
 }
